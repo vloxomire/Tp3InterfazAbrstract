@@ -6,19 +6,30 @@ using System.Threading.Tasks;
 
 namespace Tp3InterfazAbrstract
 {
-    class Barril
+    class Barril: Datos, IEmpujable,IExpotable
     {
         /*Puede empujarse, y explotar.
 Cuenta con un una posición (X) y puntos de vida*/
         public int Vida { get; set; }
         public int X { get; set; }
-        public bool Empujarse { get; set; }
-        public bool Explotar { get; set; }
         public Barril()
         {
-            Vida = 50;
-            Empujarse = true;
-            Explotar = true;
+            Vida = 40;
+            Nombre = "Barril";
+        }
+
+        public void Empujar(int distancia)
+        {
+            X=distancia;
+        }
+
+        public void Explotar(int daño)
+        {
+            if (Vida<0)
+            {
+                return;
+            }
+            Console.WriteLine("EXPLOTO EL BARRIL");
         }
     }
 }

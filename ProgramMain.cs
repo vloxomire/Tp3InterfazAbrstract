@@ -8,9 +8,16 @@ namespace Tp3InterfazAbrstract
 {
     class ProgramMain
     {
-        class Main 
+        static void Main(string[] args)
         {
-
+            GestorEventos gestor = new GestorEventos();
+            char salida;
+            do
+            {
+                gestor.Interaccione(gestor.Menu());
+                Console.WriteLine("Desea salir(\"s\") o continuar(\"c\")");
+                salida = char.Parse(Console.ReadLine());
+            } while (salida=='c');
         }
     }
 }

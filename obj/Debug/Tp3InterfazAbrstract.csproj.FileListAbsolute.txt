@@ -1,0 +1,7 @@
+C:\0-Cursos\C#\Tp3InterfazAbrstract\bin\Debug\Tp3InterfazAbrstract.exe.config
+C:\0-Cursos\C#\Tp3InterfazAbrstract\bin\Debug\Tp3InterfazAbrstract.exe
+C:\0-Cursos\C#\Tp3InterfazAbrstract\bin\Debug\Tp3InterfazAbrstract.pdb
+C:\0-Cursos\C#\Tp3InterfazAbrstract\obj\Debug\Tp3InterfazAbrstract.csprojAssemblyReference.cache
+C:\0-Cursos\C#\Tp3InterfazAbrstract\obj\Debug\Tp3InterfazAbrstract.csproj.CoreCompileInputs.cache
+C:\0-Cursos\C#\Tp3InterfazAbrstract\obj\Debug\Tp3InterfazAbrstract.exe
+C:\0-Cursos\C#\Tp3InterfazAbrstract\obj\Debug\Tp3InterfazAbrstract.pdb
